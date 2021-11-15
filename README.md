@@ -6,7 +6,7 @@
 ## Overview
 Piro Game Toolkit&trade; is 2D indie SDK that allow you to do game development in <a href="https://www.embarcadero.com/products/delphi" target="_blank">Delphi</a> for desktop PC's running Microsoft Windows® and uses OpenGL® for hardware accelerated rendering.
 
-It's robust, designed for easy, fast & fun use an suitable for making all types of 2D games and other graphic simulations, You access the features from a simple and intuitive API, to allow you to rapidly and efficiently develop your projects. There is support for bitmaps, audio samples, streaming music, video playback, loading resources directly from a compressed and encrypted archive and much more. Piro Game Toolkit, easy, fast & fun!
+It's robust, designed for easy, fast & fun use an suitable for making all types of 2D games and other graphic simulations, You access the features from a simple and intuitive API, to allow you to rapidly and efficiently develop your projects. There is support for bitmaps, audio samples, streaming music, video playback, loading resources directly from a compressed and encrypted archive, a thin object oriented actor/scene system, entity state machine, sprite management, collision detection and much more. Piro Game Toolkit, easy, fast & fun!
 
 ## Downloads
 <a href="https://tinybiggames.com/temp/PGT-Dev.zip" target="_blank">**Development**</a> - This build represent the most recent development state an as such may or may not be as stable as the official release versions. If you like living on the bleeding edge, it's updated frequently (often daily) and will contain bug fixes and new features.
@@ -110,8 +110,11 @@ begin
   // open display
   Piro.Display.Open(cDisplayWidth, cDisplayHeight,  cDisplayFullscreen, cDisplayTitle);
 
-  // create font, use buildin
+  // create font
   Piro.Get(IFont, FFont);
+  
+  // use default mono spaced font
+  FFont.Load(16)
 end;
 
 procedure TMyGame.OnShutdown;
@@ -161,9 +164,9 @@ end;
 ```
 To run your game, call
 ```pascal
-Piro.Run(TMyGame);
+Piro.RunGame(TMyGame);
 ```
-**NOTE:** For Piro to work properly, execution MUST start with `Piro.Run(...)`. This call will property setup/shutdown the library and log and handle errors. Only one Pla app instance is allowed to run and will safely terminated if more than one is detected.
+**NOTE:** For Piro to work properly, execution MUST start with `Piro.RunGame(...)`. This call will property setup/shutdown the library and log and handle errors. Only one Piro app instance is allowed to run and will safely terminated if more than one is detected.
 
 See the examples for more information on usage.
 
