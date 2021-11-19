@@ -193,9 +193,13 @@ See the examples for more information on usage.
 		<td><a href="https://twitter.com/tinyBigGAMES">https://twitter.com/tinyBigGAMES</a></td>
 	</tr>
 	<tr>
-		<td>Facebook</td>
+		<td>Facebook Page</td>
 		<td><a href="https://facebook.com/tinyBigGAMES">https://facebook.com/tinyBigGAMES</a></td>
 	</tr>
+	<tr>
+		<td>Facebook Group</td>
+		<td><a href="https://www.facebook.com/groups/pirogametoolkit">https://www.facebook.com/groups/pirogametoolkit</a></td>
+	</tr>		
 	<tr>
 		<td>Vimeo</td>
 		<td><a href="https://vimeo.com/tinyBigGAMES">https://vimeo.com/tinyBigGAMES</a></td>
