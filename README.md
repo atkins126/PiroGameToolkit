@@ -9,7 +9,7 @@ Piro Game Toolkit&trade; is a 2D indie game library that allows you to do game d
 It's robust, designed for easy use and suitable for making all types of 2D games and other graphic simulations, You access the features from a simple and intuitive API, to allow you to rapidly and efficiently develop your projects. There is support for bitmaps, audio samples, streaming music, video playback, loading resources directly from a compressed and encrypted archive, a thin object oriented actor/scene system, entity state machine, sprite management, collision detection and much more. Piro Game Toolkit, easy, fast & fun!
 
 ## Downloads
-<a href="https://pirogametoolkit.com/downloads/PGT-Dev.zip" target="_blank">**Development**</a> - This build represent the most recent development state an as such may or may not be as stable as the official release versions. If you like living on the bleeding edge, it's updated frequently (often daily) and will contain bug fixes and new features.
+<a href="https://pirogametoolkit.com/download/file.php?name=PGT-Dev.zip" target="_blank">**Development**</a> - This build represent the most recent development state an as such may or may not be as stable as the official release versions. If you like living on the bleeding edge, it's updated frequently (often daily) and will contain bug fixes and new features.
 
 <a href="https://github.com/tinyBigGAMES/PiroGameToolkit/releases" target="_blank">**Releases**</a> - These are the official release versions and deemed to be the most stable.
 
