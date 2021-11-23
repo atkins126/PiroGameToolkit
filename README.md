@@ -9,7 +9,7 @@ Piro Game Toolkit&trade; is a 2D indie game library that allows you to do game d
 It's robust, designed for easy use and suitable for making all types of 2D games and other graphic simulations, You access the features from a simple and intuitive API, to allow you to rapidly and efficiently develop your projects. There is support for bitmaps, audio samples, streaming music, video playback, loading resources directly from a compressed and encrypted archive, a thin object oriented actor/scene system, entity state machine, sprite management, collision detection and much more. Piro Game Toolkit, easy, fast & fun!
 
 ## Downloads
-<a href="https://tinybiggames.com/temp/PGT-Dev.zip" target="_blank">**Development**</a> - This build represent the most recent development state an as such may or may not be as stable as the official release versions. If you like living on the bleeding edge, it's updated frequently (often daily) and will contain bug fixes and new features.
+<a href="https://pirogametoolkit.com/downloads/PGT-Dev.zip" target="_blank">**Development**</a> - This build represent the most recent development state an as such may or may not be as stable as the official release versions. If you like living on the bleeding edge, it's updated frequently (often daily) and will contain bug fixes and new features.
 
 <a href="https://github.com/tinyBigGAMES/PiroGameToolkit/releases" target="_blank">**Releases**</a> - These are the official release versions and deemed to be the most stable.
 
@@ -21,7 +21,7 @@ Visit <a href="https://tinybiggames.com" target="_blank">tinyBigGAMES</a> websit
 - Support Windows 64 bit platform
 - Hardware accelerated with **OpenGL**
 - You interact with the toolkit via **routines**, **class objects** and a thin **OOP framework**
-- **Archive** (standard ZIP format, password protection )
+- **Archive** (custom archive format, password encryption protection)
 - **Display** ( OpenGL, anti-aliasing, vsync, viewports, primitives, blending)
 - **Input** (keyboard, mouse and joystick)
 - **Bitmap** (color key transparency, scaling, rotation, flipped, titled,  BMP, DDS, PCX, TGA, JPEG, PNG)
@@ -37,7 +37,7 @@ Visit <a href="https://tinybiggames.com" target="_blank">tinyBigGAMES</a> websit
 - **Misc** (collision, easing, screenshake, screenshot, starfield, colors, INI based config files, startup dialog, treeview menu)
 
 ## Minimum System Requirements
-- <a href="https://www.embarcadero.com/products/delphi/starter" target="_blank">Delphi Community Edition+</a>
+- <a href="https://www.embarcadero.com/products/delphi/starter" target="_blank">Delphi Community Edition</a>
 - Microsoft Windows 10, 64 bits
 - OpenGL 3
 
@@ -46,7 +46,6 @@ Visit <a href="https://tinybiggames.com" target="_blank">tinyBigGAMES</a> websit
 - Add `installdir\libs`, folder to Delphi's library path so the toolkit source files can be found for any project or for a specific project add to its search path.
 - See examples in the `installdir\examples` for more information about usage.
 - Build `PiroArc` utility for making **.ARC** files (standard zip archive). Running the `makearc.bat` in `installdir\examples\bin` will build `Data.arc` that is used by the examples.
-- Build `PiroDump` utility if you need convert a small binary file to Pascal source format that can be included `{$I MyBinaryFile.inc}` in your project.
 - Build `PiroExamples` to showcase many of the features and capabilities of the toolkit.
 
 ## Known Issues
@@ -164,9 +163,9 @@ end;
 ```
 To run your game, call
 ```pascal
-PiroRunGame(TMyGame);
+PiroRun(TMyGame);
 ```
-**NOTE:** For Piro to work properly, execution MUST start with `PiroRunGame(...)`. This call will property setup/shutdown the library and log and handle errors. Only one Piro app instance is allowed to run and will safely terminated if more than one is detected.
+**NOTE:** For Piro to work properly, execution MUST start with `PiroRun(...)`. This call will property setup/shutdown the library and log and handle errors. Only one Piro app instance is allowed to run and will safely terminated if more than one is detected.
 
 See the examples for more information on usage.
 
