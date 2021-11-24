@@ -176,6 +176,14 @@ See the examples for more information on usage.
 <table>
 <tbody>
 	<tr>
+		<td>Project Discussions</td>
+		<td><a href="https://github.com/tinyBigGAMES/PiroGameToolkit/discussions">https://github.com/tinyBigGAMES/PiroGameToolkit/discussions</a></td>
+	</tr>
+	<tr>
+		<td>Project Tracking</td>
+		<td><a href="https://github.com/tinyBigGAMES/PiroGameToolkit/projects">https://github.com/tinyBigGAMES/PiroGameToolkit/projects</a></td>
+	</tr>	
+	<tr>
 		<td>Website</td>
 		<td><a href="https://tinybiggames.com">https://tinybiggames.com</a></td>
 	</tr>
