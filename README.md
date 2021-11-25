@@ -9,7 +9,7 @@ Piro Game Toolkit&trade; is a 2D indie game library that allows you to do game d
 It's robust, designed for easy use and suitable for making all types of 2D games and other graphic simulations, You access the features from a simple and intuitive API, to allow you to rapidly and efficiently develop your projects. There is support for bitmaps, audio samples, streaming music, video playback, loading resources directly from a compressed and encrypted archive, a thin object oriented actor/scene system, entity state machine, sprite management, collision detection and much more. Piro Game Toolkit, easy, fast & fun!
 
 ## Downloads
-<a href="https://pirogametoolkit.com/download/file.php?name=PGT-Dev.zip" target="_blank">**Development**</a> - This build represent the most recent development state an as such may or may not be as stable as the official release versions. If you like living on the bleeding edge, it's updated frequently (often daily) and will contain bug fixes and new features.
+<a href="https://pirogametoolkit.com/download/file.php?name=PGT-Dev.zip" target="_blank">**Development**</a> - This build represents the most recent development state an as such may or may not be as stable as the official release versions. If you like living on the bleeding edge, it's updated frequently (often daily) and will contain bug fixes and new features.
 
 <a href="https://github.com/tinyBigGAMES/PiroGameToolkit/releases" target="_blank">**Releases**</a> - These are the official release versions and deemed to be the most stable.
 
@@ -21,8 +21,8 @@ Visit <a href="https://tinybiggames.com" target="_blank">tinyBigGAMES</a> websit
 - Support Windows 64 bit platform
 - Hardware accelerated with **OpenGL**
 - You interact with the toolkit via **routines**, **class objects** and a thin **OOP framework**
-- **Archive** (custom archive format, password encryption protection)
-- **Display** ( OpenGL, anti-aliasing, vsync, viewports, primitives, blending)
+- **Archive** (custom archive format, password protection, encryption)
+- **Display** (OpenGL, anti-aliasing, vsync, viewports, primitives, blending)
 - **Input** (keyboard, mouse and joystick)
 - **Bitmap** (color key transparency, scaling, rotation, flipped, titled,  BMP, DDS, PCX, TGA, JPEG, PNG)
 - **Video** (play, pause, rewind, OGV format)
@@ -31,7 +31,7 @@ Visit <a href="https://tinybiggames.com" target="_blank">tinyBigGAMES</a> websit
 - **Actor** (list, scene, state machine)
 - **Audio** (samples, streams, WAV, OGG/Vorbis, FLAC formats)
 - **Speech** (multiple voices, play, pause)
-- **Font** (true type, scale, rotate, 2 builtin)
+- **Font** (true type, scale, rotate)
 - **Timing** (time-based, frame elapsed, frame speed)
 - **Shaders** (vertex, pixel, GLSL)
 - **Misc** (collision, easing, screenshake, screenshot, starfield, colors, INI based config files, startup dialog, treeview menu)
@@ -55,10 +55,10 @@ Visit <a href="https://tinybiggames.com" target="_blank">tinyBigGAMES</a> websit
 
 ## A Tour of Piro Game Toolkit
 ### Game Object
-You just have to derive a new class from the `TCustomGame` base class and override a few callback methods. You access the toolkit functionality from the `PGT` unit.
+You just have to derive a new class from the `TCustomGame` base class and override a few callback methods. You access the toolkit functionality from the `PiroGameToolkit` unit.
 ```pascal
 uses
-  PGT;
+  PiroGameToolkit;
   
 const
   cArchiveFilename   = 'Data.arc';
@@ -157,8 +157,8 @@ begin
   Pos.Assign(3, 3, 0);
 
   // display hud text
-  Piro.Font.Print(FFont, Pos.X, Pos.Y, Pos.Z, WHITE, alLeft, 'fps %d', [Pla.GetFrameRate]);
-  Piro.Font.Print(FFont, Pos.X, Pos.Y, 0, GREEN, alLeft, 'Esc - Quit', []);
+  FFont.Print(FFont, Pos.X, Pos.Y, Pos.Z, WHITE, alLeft, 'fps %d', [Pla.GetFrameRate]);
+  FFont.Print(FFont, Pos.X, Pos.Y, 0, GREEN, alLeft, 'Esc - Quit', []);
 end;
 ```
 To run your game, call
