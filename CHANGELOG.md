@@ -1,0 +1,55 @@
+### CHANGELOG - Piro Game Toolkit
+## Version 1.0.pre-alpha1
+- Added ICmdLine interface
+- Added IMath interface
+- Added IEase interface
+- Added ICollision interface
+- Added IArchive interface
+- Added IArchiver interface
+- Added IConfigFile interface
+- Added IAudio interface
+- Added IColor interface
+- Added IBitmap interface
+- Added IViewport interface
+- Added IDisplay interface
+- Added IInput interface
+- Added IFont interface
+- Added IVideo interface
+- Added IScreenshake interface
+- Added IScreenshot interface
+- Added IAsync interface
+- Added ISpeech interface
+- Added Starfield interface
+- Added IPolygon interface
+- Added ISprite interface
+- Added IEntity interface
+- Added IStartupDialog interface
+- Added ITreeMenu interface
+- Added IDialog interface
+- Added IDac interface
+- Added TBaseGame class
+- Added PiroLoad, PiroUnload, PiroRun, PiroRunGame routines
+- Added TActor, TActorList, TAIState, TAIStateMachine, TAIActor, TActorScene, TEntityActor, TAIEntityActor, TBaseGameApp classes
+- Added Actor example
+- Added Music example
+- Added Positional Audio example
+- Added Sound example
+- Added Align Bitmap example
+- Added ColorKey Transparent Bitmap example
+- Added Native Transparent Bitmap example
+- Added Parallax Titled Bitmap example
+- Added Tiled Bitmap example
+- Added Basic Entity example
+- Added Blend Mode Entity example
+- Added PolyPoint Collision example
+- Added PolyPoint Collision Point example
+- Added Unicode Font example
+- Added Speech Example
+- Added Video Play example
+- Added Rotate Viewport example
+- Added AstroBlaster demo
+- Added ChainAction demo
+- Added Elastic demo
+- Added Scroll demo
+- Added Viewports demo
+
