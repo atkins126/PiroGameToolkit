@@ -47,7 +47,7 @@ Visit <a href="https://tinybiggames.com" target="_blank">tinyBigGAMES</a> websit
 - See examples in the `installdir\examples` for more information about usage.
 - Use `PiroArc` utility for making **.ARC** files (custom archive format, supports encryption and password protection). Running the `makearc.bat` in `installdir\examples\bin` will build `Data.arc` that is used by the examples.
 - Build `PiroExamples` to showcase many of the features and capabilities of the toolkit.
-- You must include **PGT.dll** in addition to any other of your own dependent files such as any **.ARC** files for example, in your project distributions.
+- You must include **PGT.dll** in addition to any dependencies such an **.ARC** files for example, in your project distribution.
 - **NOTE:** For your assurance, all official executables in the PGT distro are code signed by tinyBigGAMES LLC. 
 
 ## Known Issues
