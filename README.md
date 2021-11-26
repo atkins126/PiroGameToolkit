@@ -16,7 +16,7 @@ It's robust, designed for easy use and suitable for making all types of 2D games
 Visit <a href="https://tinybiggames.com" target="_blank">tinyBigGAMES</a> website for the latest news, updates, downloads and licensing information.
 
 ## Features
-- **Free** for commercial use. See License agreement.
+- **Free** for commercial use. See <a href="https://github.com/tinyBigGAMES/PiroGameToolkit/blob/main/LICENSE" target="_blank">License agreement</a>.
 - Written in **Object Pascal**
 - Support Windows 64 bit platform
 - Hardware accelerated with **OpenGL**
