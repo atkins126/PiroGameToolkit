@@ -1,4 +1,4 @@
-### CHANGELOG - Piro Game Toolkit
+# CHANGELOG - Piro Game Toolkit
 ## Version 1.0.pre-alpha1
 - Added ICmdLine interface
 - Added IMath interface
