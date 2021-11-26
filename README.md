@@ -45,8 +45,10 @@ Visit <a href="https://tinybiggames.com" target="_blank">tinyBigGAMES</a> websit
 - Unzip the archive to a desired location.
 - Add `installdir\libs`, folder to Delphi's library path so the toolkit source files can be found for any project or for a specific project add to its search path.
 - See examples in the `installdir\examples` for more information about usage.
-- Build `PiroArc` utility for making **.ARC** files (standard zip archive). Running the `makearc.bat` in `installdir\examples\bin` will build `Data.arc` that is used by the examples.
+- Use `PiroArc` utility for making **.ARC** files (custom archive format, supports encryption and password protection). Running the `makearc.bat` in `installdir\examples\bin` will build `Data.arc` that is used by the examples.
 - Build `PiroExamples` to showcase many of the features and capabilities of the toolkit.
+- You must include **PGT.dll** in addition to any other of your own dependent files such as any **.ARC** files for example, in your project distributions.
+- **NOTE:** For your assurance, all official executables in the PGT distro are code signed by tinyBigGAMES LLC. 
 
 ## Known Issues
 - This project is in active development so changes will be frequent 
