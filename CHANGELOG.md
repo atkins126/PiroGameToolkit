@@ -1,5 +1,6 @@
 # CHANGELOG - Piro Game Toolkit
 ## Version 1.0.pre-alpha1
+- Added IIAP interface
 - Added ICmdLine interface
 - Added IMath interface
 - Added IEase interface
