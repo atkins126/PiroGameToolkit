@@ -1,5 +1,11 @@
 # CHANGELOG - Piro Game Toolkit
 ## Version 1.0.pre-alpha1
+- Added default input maps for common actions
+- Changed all previous JOY_XXX variables to constants
+- Added AddImages method to ISprite interface
+- Fixed a possible crash for methods that accept an IArchive param and it's set to nil which means to load from the filesystem
+- Added ICScript interface
+- Added IInputMap interface
 - Added IIAP interface
 - Added ICmdLine interface
 - Added IMath interface
