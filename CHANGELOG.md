@@ -1,5 +1,8 @@
 # CHANGELOG - Piro Game Toolkit
 ## Version 1.0.pre-alpha1
+- Added **aPort** param to **IDac.SetupMySQL** method and simplified its usage 
+- Added default **XOffset** & **YOffset** params to **ISprite.AddImageFromRect**, **ISprite.AddImageFromGrid**, **ISprite.AddImages** methods
+- Added **IGUI** interface 
 - Added default input maps for common actions
 - Changed all previous JOY_XXX variables to constants
 - Added AddImages method to ISprite interface
